@@ -11,7 +11,7 @@ pipeline {
         stage('Deploy Website') {
             steps {
                 sh '''
-                sudo cp index.html /var/www/html/
+                sudo cp stctc.html /var/www/html/
                 '''
             }
         }
